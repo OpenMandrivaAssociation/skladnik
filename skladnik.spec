@@ -20,6 +20,7 @@ BuildRequires:	cmake(KF6I18n)
 BuildRequires:	cmake(KF6KIO)
 BuildRequires:	cmake(KF6WidgetsAddons)
 BuildRequires:	cmake(KF6XmlGui)
+BuildRequires:	cmake(KF6DocTools)
 BuildRequires:	cmake(KDEGames6)
 
 %description
