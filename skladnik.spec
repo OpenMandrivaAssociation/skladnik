@@ -1,7 +1,7 @@
 %define stable %([ "$(echo %{version} |cut -d. -f2)" -ge 70 -o "$(echo %{version} |cut -d. -f3)" -ge 70 ] && echo -n un; echo -n stable)
 
 Name:		skladnik
-Version:	25.12.0
+Version:	25.12.1
 Release:	1
 Source0:	http://download.kde.org/%{stable}/release-service/%{version}/src/skladnik-%{version}.tar.xz
 Summary:	Move the crates puzzle game
